@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lobster&family=Mea+Culpa&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --primary-color: #beff16;
+  --secondary-color: #fff;
+  --tertiary-color: #040402;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: var(--tertiary-color);
+}
+.menu .navbar {
+  background-color: var(--tertiary-color);
+}
+/* .itemku:hover {
+  color: var(--primary-color);
+} */
+.logo {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+.text {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* hero */
+/* .hero {
+  height: 100vh;
+} */
+.jumbotron {
+  margin-top: 90px;
+}
+.intro {
+  font-weight: 600;
+  font-size: 45px;
+  margin-top: 20px;
+}
+span {
+  color: var(--primary-color);
+}
+.intro2 {
+  font-size: 16px;
+  color: #918c8c;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.btn-primari {
+  padding: 19px 43px 19px 43px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  border: none;
+  box-shadow: 0px 4px 4px #beff16;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.btn-primari:hover {
+  background-color: #adee08;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 50px;
+}
+.icon-left {
+  margin-left: 50px;
+}
+.hero-img img {
+  width: 422px;
+  height: 528.51px;
+}
+
+/* project */
+.judul {
+  font-size: 30px;
+  font-weight: 600;
+}
+.img-project {
+  width: 100%;
+}
+.link-figma {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #918c8c;
+  margin-top: 10px;
+}
+.project-2 {
+  margin-top: 20px;
+}
+
+/* footer */
+.bisnis {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+.judulfooter {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.icon-footer {
+  width: 72px;
+  height: 72px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+/* about */
+.garis {
+  border: 1px solid #fff;
+  width: 28px;
+  text-align: center;
+}
+.judulabout {
+  color: #fff;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+.judulbesar {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+.judul1about,
+.judul2about {
+  font-size: 25px;
+  color: #fff;
+}
+.kontakku{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 756px) {
+    .hero-img{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+}
+  
+
